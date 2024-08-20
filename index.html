@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>EBAC Motors</h1>
+        <div class="menu-hamburguer">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <nav>
+        <div class="container">
+          <ul>
+            <li>
+              <a href="#">Sobre</a>
+            </li>
+            <li>
+              <a href="#">Em destaque</a>
+            </li>
+            <li>
+              <a href="#">Promoções</a>
+            </li>
+            <li>
+              <a href="#">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div id="carousel-images">
+      <!-- <img src="images/carro-bmw.png" alt="Carro BMW" />
+      <img src="images/fusca.png" alt="Carro fusca" />
+      <img src="images/loja.jpg" alt="Estacionamento com carros" />
+      <img src="images/moto-bmw.png" alt="Moto BMW" /> -->
+      <img src="images/slide1.png" alt="Carro Porshe" />
+      <img src="images/slide2.png" alt="Carro BMW" />
+      <img src="images/slide3.png" alt="Carro Ford" />
+    </div>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $("#carousel-images").slick({
+          autoplay: true,
+        });
+      });
+    </script>
+  </body>
+</html>
